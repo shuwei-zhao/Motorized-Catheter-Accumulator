@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.python-version
+
+# Python test and tooling caches
+.coverage
+.coverage.*
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+
+# Arduino build output and local configuration
+build/
+*.elf
+*.hex
+*.eep
+*.map
+*.ino.bin
+*.ino.elf
+*.ino.hex
+sketch.yaml
+
+# IDE files
+.idea/
+.vscode/
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# CAD temporary, recovery, and backup files
+*.autosave
+*.bak
+*.tmp
+*.temp
+*.backup
+~$*
+
+# Logs
+*.log
